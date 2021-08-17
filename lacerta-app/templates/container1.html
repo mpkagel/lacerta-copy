@@ -1,0 +1,15 @@
+<div class="col col-container1" id="container1">
+  <h3>Crawl History</h3>
+  {% if container1_data != None %}
+    <button type="submit" class="btn btn-warning btn-sm" id="clear_history">Clear History</button>
+  {% endif %}
+  <ul class="list-unstyled">
+    {% if container1_data != None %}
+      {% for crawl in container1_data %}
+          <li><a class="history_link" id="{{crawl["id"]}}" href="#">{{crawl["url"]}}</a></li>
+      {% endfor %}
+    {% else %}
+      <li class="">There is no history :)</li>
+    {% endif %}
+  </ul>
+</div>

@@ -1,0 +1,10 @@
+{
+  "type": "DFS",
+  "links": [
+    {"source": "Home", "target": "Domina"},
+    {"source": "Domina", "target": "Gato Grottoes"}],
+  "nodes": [
+    {"id": "Home"},
+    {"id": "Domina"},
+    {"id": "Gato Grottoes"}]
+}

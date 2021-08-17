@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "*"
+flask-dynamo = "*"
+Flask-S3 = "*"
+zappa = "*"
+gunicorn = "*"
+gevent = "*"
+lxml = "*"
+werkzeug = "==0.16.1"
+pip = "*"
+troposphere = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

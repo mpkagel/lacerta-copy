@@ -1,0 +1,44 @@
+
+<div class="col-9 container" id="container3">
+	<form id="new_query_form">
+	  <div class="form-group row">
+      <div class="col-md-12">
+        <legend for="start_url"><h3>Start Website</h3></legend>
+        <input type="text" class="form-control form-control-lg" id="start_url" name="start_url" aria-describedby="startWebsiteHelp" placeholder="Enter starting web page URL..." >
+      </div>
+	  </div>
+    <div class="form-group row">
+      <div class="col-md-12">
+        <legend><h5>Search Type</h5></legend>
+        <div class="btn-group d-flex btn-group-toggle" id="search_type" data-toggle="buttons" role="radiogroup" aria-label="Search Type">
+          <label class="btn bfs w-100 active">
+            <input type="radio" name="search_type" id="search_type1" value="BFS" autocomplete="off" onchange="return depthMenu(this)" checked> Breadth-First
+          </label>
+          <label class="btn dfs w-100">
+            <input type="radio" name="search_type" id="search_type2" value="DFS" autocomplete="off" onchange="return depthMenu(this)"> Depth-First
+          </label>
+        </div>
+      </div>
+    </div>
+	  <div class="form-group row">
+      <div class="col-md-6">
+        <legend for="depth"><h5>Search Depth</h5></legend>
+        <select type="text" class="form-control form-control-sm" id="depth" name="depth" placeholder="How many levels deep to search..." >
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <legend for="keyword"><h5>Stop Keyword</h5></legend>
+	      <input type="text" class="form-control form-control-sm" id="keyword" name="keyword" placeholder="(Optional) Stop search if keyword found..." >
+      </div>
+    </div>
+    <div class="form-group row bottom">
+      <div class="col-md-6 text-center">
+        <legend><h5>&nbsp;</h5></legend>
+        <button type="submit" class="btn btn-secondary w-100" id="new_query_button">Submit Search</button>
+      </div>
+	  </div>
+	</form>
+</div>

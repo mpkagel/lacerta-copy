@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block head %}
+	{% include '/css/container0_style.html' %}
+	{% include '/css/container1_style.html' %}
+	{% include '/css/container2_style.html' %}
+	{% include '/css/container3_style.html' %}
+	{% include '/css/container4_style.html' %}
+{% endblock %}
+
+{% block content %}
+{% include 'container0.html' %}
+<div class="container-fluid">
+	<div class="row">
+	   	{% include 'container2.html' %}
+	    <div class="col">
+	    	<div class="row">
+  			  {% include 'container3.html' %}
+	    	</div>
+	    	<div class="row">
+			    {% include 'container4.html' %}
+	    	</div>
+	    </div>
+      {% include 'container1.html' %}
+  	</div>
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+	<script type="text/javascript">
+		{% include "js/container1.js" %}
+		{% include "js/container3.js" %}
+		{% include "js/container4_bfs_graph.js" %}
+		{% include "js/container4_dfs_graph.js" %}
+	</script>
+{% endblock %}

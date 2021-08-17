@@ -1,0 +1,14 @@
+{
+  "type": "DFS",
+  "links": [
+    {"source": "Home", "target": "Domina"},
+    {"source": "Domina", "target": "Luon Highway"},
+    {"source": "Luon Highway", "target": "Gato Grottoes"},
+    {"source": "Gato Grottoes", "target": "Mindas Ruins"}],
+  "nodes": [
+    {"id": "Home"},
+    {"id": "Domina"},
+    {"id": "Luon Highway"},
+    {"id": "Gato Grottoes"},
+    {"id": "Mindas Ruins"}]
+}

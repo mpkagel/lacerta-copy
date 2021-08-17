@@ -1,0 +1,22 @@
+{
+    "type": "BFS",
+  "links": [
+    {"source": "Tower of Leires", "target": "Bejeweled City"},
+    {"source": "Tower of Leires", "target": "Fieg Snowfields"},
+    {"source": "Fieg Snowfields", "target": "Underworld"},
+    {"source": "Fieg Snowfields", "target": "Bone Fortress"},
+    {"source": "Fieg Snowfields", "target": "Lucemia"},
+    {"source": "Bejeweled City", "target": "SS Buccaneer"},
+    {"source": "SS Buccaneer", "target": "Polpota Harbor"},
+    {"source": "SS Buccaneer", "target": "Madora Beach"}],
+  "nodes": [
+    {"id": "Tower of Leires"},
+    {"id": "Bejeweled City"},
+    {"id": "Fieg Snowfields"},
+    {"id": "Underworld"},
+    {"id": "Bone Fortress"},
+    {"id": "Lucemia"},
+    {"id": "SS Buccaneer"},
+    {"id": "Madora Beach"},
+    {"id": "Polpota Harbor"}]
+}

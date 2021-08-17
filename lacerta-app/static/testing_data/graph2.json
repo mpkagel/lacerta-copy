@@ -1,0 +1,8 @@
+{
+  "type": "DFS",
+  "links": [
+    {"source": "Home", "target": "Domina"}],
+  "nodes": [
+    {"id": "Home"},
+    {"id": "Domina"}]
+}

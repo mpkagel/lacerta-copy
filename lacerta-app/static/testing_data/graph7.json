@@ -1,0 +1,28 @@
+{
+  "type": "DFS",
+  "links": [
+    {"source": "Home", "target": "Domina"},
+    {"source": "Domina", "target": "Luon Highway"},
+    {"source": "Luon Highway", "target": "Gato Grottoes"},
+    {"source": "Gato Grottoes", "target": "Mindas Ruins"},
+    {"source": "Mindas Ruins", "target": "Lake Kilma"},
+    {"source": "Lake Kilma", "target": "Tower of Leires"},
+    {"source": "Tower of Leires", "target": "Mekiv Caverns"},
+    {"source": "Mekiv Caverns", "target": "Junkyard"},
+    {"source": "Junkyard", "target": "Ulkan Mines"},
+    {"source": "Ulkan Mines", "target": "Lumina"},
+    {"source": "Lumina", "target": "Jungle"}],
+  "nodes": [
+    {"id": "Home"},
+    {"id": "Domina"},
+    {"id": "Luon Highway"},
+    {"id": "Gato Grottoes"},
+    {"id": "Mindas Ruins"},
+    {"id": "Lake Kilma"},
+    {"id": "Tower of Leires"},
+    {"id": "Mekiv Caverns"},
+    {"id": "Junkyard"},
+    {"id": "Ulkan Mines"},
+    {"id": "Lumina"},
+    {"id": "Jungle"}]
+}

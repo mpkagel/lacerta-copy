@@ -1,0 +1,9 @@
+{
+  "type": "BFS",
+  "links": [
+    {"source": "Home", "target": "Domina"},
+	{"source": "Domina", "target": "Home"}],
+  "nodes": [
+    {"id": "Home"},
+    {"id": "Domina"}]
+}

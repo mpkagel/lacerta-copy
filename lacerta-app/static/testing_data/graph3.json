@@ -1,0 +1,10 @@
+{
+  "type": "BFS",
+  "links": [
+    {"source": "Home", "target": "Domina"},
+    {"source": "Home", "target": "Mekiv Caverns"}],
+  "nodes": [
+    {"id": "Home"},
+    {"id": "Domina"},
+    {"id": "Mekiv Caverns"}]
+}
