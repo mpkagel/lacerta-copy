@@ -9,7 +9,7 @@ import requests
 import timeit
 
 MAX_NODES=50
-MAX_TIME=25
+MAX_TIME=5
 
 
 class Node:
